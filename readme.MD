@@ -3,7 +3,6 @@ Pacman 3D
 
 Graphics and interaction
 ----
-Semester 2 2011
 
 To run the game simply run ./Pacman from the command line.
 Optionally to load a level run ./Pacman ./levels/levelX.txt where x is the level you would like to load.
