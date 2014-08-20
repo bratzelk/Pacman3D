@@ -5,7 +5,7 @@ Pacman 3D
 To run the game simply build the project by running ```make``` and then run ```./Pacman``` from the command line.
 Optionally to load a level run ```./Pacman ./levels/levelX.txt``` where x is the level you would like to load.
 
-In game commands:
+In game commands
 --
 
  - To move, use the arrow keys.
@@ -23,7 +23,7 @@ You must then press the up arrow to begin moving again.
  - ‘w' - Play the game in cool wireframe mode
  - ‘q' - will quit the game 
 
-Features:
+Features
 --
 
  - Four connected (grid) movement based on navigation graph
@@ -40,7 +40,7 @@ Features:
  - Classic Retro Mode
  - Python Level Generator and Level Loader
 
-Modelling Game Objects:
+Modelling Game Objects
 --
 
  - Pacman is displayed using either a spline or a solid sphere
@@ -49,10 +49,10 @@ Modelling Game Objects:
  - The landscape uses the plasma fractal from project one
  - The edible item is displayed using the built in teapot object
 
-Camera Motion:
+Camera Motion
 --
 
  - The camera is positioned behind the player
  - The height and angle of the camera is relative to the players position on the landscape and their direction of motion (the heading)
  - When the player turns, the camera is smoothly rotated towards the new direction
- 
+
