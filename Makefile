@@ -1,12 +1,12 @@
-# Makefile for Graphics
-# BY KIM BRATZEL 296469
+# Makefile for Pacman #D
+# BY KIM BRATZEL
 #
 
 ## CC  = Compiler.
 ## CFLAGS = Compiler flags.
 CC	= gcc
 CFLAGS 	=-framework GLUT -framework OpenGL -framework Cocoa -D OSX -std=c99 -g
-//CFLAGS 	=-framework GLUT -framework OpenGL -framework Cocoa -D OSX -std=c99 -g
+#CFLAGS =-framework GLUT -framework OpenGL -framework Cocoa -D OSX -std=c99 -g
 
 
 ## OBJ = Object files.

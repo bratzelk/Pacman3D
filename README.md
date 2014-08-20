@@ -5,6 +5,8 @@ Pacman 3D
 To run the game simply build the project by running ```make``` and then run ```./Pacman``` from the command line.
 Optionally to load a level run ```./Pacman ./levels/levelX.txt``` where x is the level you would like to load.
 
+I haven't run this recently on a non OS X machine, you may need to remove the OSX flag in the Makefile to compile.
+
 In game commands
 --
 
